@@ -116,7 +116,16 @@ button
 }
 
 .main-content-index {
-  background-color: grey;
+  background-attachment: fixed;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../images/Code.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/Code.jpg");
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+  /*background-color: grey;*/
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -128,12 +137,13 @@ button
 .main-content-index h1
 {
   text-align: center;
+  color: white;
 }
 
 .buttons-container
 {
   display: block;
-  background-color: grey;
+  /*background-color: grey;*/
   text-align: center;
 }
 
