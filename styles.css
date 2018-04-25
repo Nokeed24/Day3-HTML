@@ -20,6 +20,8 @@ body {
   background-color: black;
   padding-top: 1vh;
   z-index: 4;
+  transition: 0.5s;
+
 }
 
 .navbar:hover {
@@ -36,18 +38,23 @@ transition: 0.5s;
 
 .navbar-links {
   visibility: hidden;
+  list-style: none;
+  align-self: center;
 }
 
 .navbar:hover .navbar-links {
-
+  display: flex;
+  width: 90%;
+  height: 30vh;
+  visibility: visible;
+  color: white;
 }
 
 .navbar-icon {
   width: 30px;
   height: 30px;
   background-color: white;
-  z-index: 1;
-  align-self: flex-start;
+  z-index: 4;
 }
 
 .intro {
@@ -58,8 +65,8 @@ transition: 0.5s;
 .main-content {
   display: flex;
   flex-direction: row;
-  height: 70vh;
-  width: 96vw;
+  height: 70%;
+  width: 96%;
   margin: 0 2vw 0 2vw;
 }
 
@@ -121,4 +128,4 @@ button
 .button3
 {
   background-color: #ffff00;
-} 
+}
