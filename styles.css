@@ -72,13 +72,21 @@ transition: 0.5s;
 
 .column {
   display: flex;
-  border: 2px solid black;
-  overflow: hidden;
+  flex-direction: column;
+  /*border: 2px solid black;*/
+  /*overflow: hidden;*/
   padding: 1vh 1vw;
 }
 
 .column p {
+  padding: 20px;
   align-self: flex-end;
+}
+
+.column li
+{
+  list-style: none;
+  /*padding-bottom: 20px;*/
 }
 
 button
