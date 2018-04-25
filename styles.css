@@ -5,6 +5,11 @@ body {
   height: 100vh
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .main-page {
   display: flex;
   flex-direction: column;
@@ -39,7 +44,8 @@ transition: 0.5s;
 .navbar-links {
   visibility: hidden;
   list-style: none;
-  align-self: center;
+  justify-content: center; 
+  text-decoration: none;
 }
 
 .navbar:hover .navbar-links {
